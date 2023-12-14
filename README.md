@@ -71,6 +71,6 @@ Contribuições são bem-vindas! Se você deseja colaborar com melhorias, corre�
 
 ## Suporte
 
-Em caso de dúvidas ou problemas, entre em contato com a equipe de suporte da API pelo email: seu-email@gmail.com.
+Em caso de dúvidas ou problemas, entre em contato com a equipe de suporte da API pelo email: igoroliveira9827@gmail.com.
 
 Agradecemos por contribuir com a API BookNest e esperamos que ela seja útil para os amantes da leitura!
