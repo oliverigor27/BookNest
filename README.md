@@ -10,7 +10,7 @@
 
 <br />
 
-A API BookNest é uma plataforma que proporciona uma experiência personalizada para os entusiastas da leitura, conectando-os a recomendações de livros feitas sob medida para seus gostos individuais. Desenvolvida com C#, ASP.NET, Entity Framework e PostgreSQL.
+A API BookNest é uma plataforma que proporciona uma experiência personalizada para os entusiastas da leitura, conectando-os a recomendações de livros feitas sob medida para seus gostos individuais. Desenvolvida com C#, ASP.NET, Entity Framework e PostgreSQL, seguindo o padrão de design Repository e uma estrutura de organização de pastas adaptada às recomendações do [estilo de arquitetura do governo](https://wiki-coatic.saude.gov.br/backend-node).
 
 ## Objetivo
 
@@ -20,15 +20,15 @@ A missão da API é criar uma comunidade de leitores conectados, permitindo a de
 
 A API oferece os seguintes endpoints principais:
 
-- **Cadastro de Usuário:** Permite que novos usuários sejam cadastrados no sistema, fornecendo nome, email e senha.
+- **Cadastro de Usuário:** Permite que novos usuários se cadastrem fornecendo informações como nome, email e senha.
   - Endpoint: `POST /api/auth/register`
 - **Autenticação de Usuário:** Permite que usuários cadastrados façam login no sistema e recebam um token de autenticação.
   - Endpoint: `POST /api/auth/login`
-- **Catálogo de Livros:** Retorna a lista de todos os livros disponíveis no sistema.
+- **Catálogo de Livros:** Retorna a lista de todos os livros disponíveis na plataforma.
   - Endpoint: `GET /api/books`
 - **Recomendações Personalizadas:** Obtém recomendações de livros personalizadas para um usuário autenticado.
   - Endpoint: `GET /api/recommendations`
-- **Avaliações e Comentários:** Permite que usuários avaliem livros e adicionem comentários.
+- **Avaliações e Comentários:** Permite que usuários avaliem livros e adicionem comentários, contribuindo para a construção de uma comunidade interativa.
   - Endpoint: `POST /api/reviews`
 
 ## Tecnologias Utilizadas
@@ -71,6 +71,6 @@ Contribuições são bem-vindas! Se você deseja colaborar com melhorias, corre�
 
 ## Suporte
 
-Em caso de dúvidas ou problemas, entre em contato com a equipe de suporte da API pelo email: igoroliveira9827@gmail.com.
+Em caso de dúvidas ou problemas, entre em contato com a equipe de suporte da API pelo email: igoroliveira9827@gmail.com.com.
 
 Agradecemos por contribuir com a API BookNest e esperamos que ela seja útil para os amantes da leitura!
