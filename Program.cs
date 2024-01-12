@@ -7,6 +7,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// registro de serviço do register
+// builder.Services.AddScoped<RegisterService>();
+// builder.Services.AddScoped<IRegisterRepository<RegisterDTO>, RegisterRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
